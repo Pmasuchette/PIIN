@@ -1,3 +1,64 @@
-h1 {font-family: Lexend;
-text-align: left;
-font-size:40px ;}
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f1f3f5, #6ab6f5, #2d79f4); 
+    color: #333; 
+    line-height: 1.6;
+    text-align: center; 
+}
+
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+    color: #4d5a73;
+    font-weight: bold;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #ccc;
+    width: 50%;
+    margin: 30px auto;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+p.contact {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #f3f9fe; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005599; 
+}
