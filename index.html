@@ -3,70 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Creamy Skincare</title>
 </head>
 <body>
     <header>
+        <div class="header-container">
+            <h1>
+                <span style="color: rgb(87, 179, 240);">Creamy</span>
+                <span style="color: rgb(103, 255, 255);">Skincare</span>
+            </h1>
         <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-        <h1>
-            <span style="color: rgb(87, 179, 240);">Creamy</span>
-            <span style="color: rgb(103, 255, 255);">Skincare</span>
-        </h1>
-    </header>
     
-    <div class="container" id="Sobre">
-        <p>
-            Olá, meu nome é Luzia e tenho uma notícia incrível para vocês! Estou revendendo os produtos da Creamy Skincare, a marca com os produtos certos para a necessidade da sua pele! 
-            Trabalho há 23 anos com a revenda de cosméticos e garanto que a Creamy é a melhor marca com que já trabalhei.
-        </p>
-            <img src="VELHA.jpg"
-            style="max-width: 300px; width: 100%; height: auto; display: block; margin: 30px auto; border-radius: 10px;">
-
-        <h2>Por que usar Creamy?</h2>
-        <p>
-            A Creamy Skincare oferece uma variedade de cremes, hidratantes e séruns formulados para deixar sua pele uniforme e sem manchas! 
-        A marca se preocupa tanto com quem tem pele sensível  oferecendo produtos suaves e não agressivos – quanto com aqueles que já possuem uma rotina intensa de skincare 
-        e desejam uma linha completa para transformar sua pele de forma extraordinária. Além disso, a Creamy é uma das marcas mais acessíveis do mercado, sendo Cruelty-Free e utilizando embalagens recicláveis, contribuindo para o meio ambiente. 
-        O atendimento também é um diferencial, com especialistas sempre prontos para ajudar a montar um kit skincare ideal para cada tipo de pele. 
-        Em apenas 5 anos, a Creamy Skincare se tornou uma das marcas mais influentes do setor, graças ao trabalho de cosmetólogos e farmacêuticos que desenvolvem cada produto com dedicação e qualidade.
-        </p>
-
-        <h2>Produtos em Destaque</h2>
-        <div class="products" id="produtos">
-            <div class="product">
-                <img src="hidratante-facial-creamy-calming-cream-40g-principal.webp" alt="Produto 1">
-                <p>Hidratante Facial - Fórmula leve e eficaz</p>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="nav-icons">
+                <input type="text" placeholder="Buscar" class="search-bar">
+                <button class="search-btn">🔍</button>
             </div>
-            <div class="product">
-                <img src="Niacinamide-B-Complex-20---01.webp" alt="Produto 2">
-                <p>Sérum Clareador - Pele uniforme e radiante</p>
-            </div>
-            <div class="product">
-                <img src="01.webp" alt="Produto 3">
-                <p>Gel de Limpeza - Remove impurezas com suavidade</p>
             
-            </div>
+        </nav>
+        </div>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-container">
+            <img src="img/Carrossel1.webp" alt="slide1">
+            <img src="img/Carrossel2.webp" alt="Slide2">
+            <img src="img/Carrossel3.webp" alt="slide3">
+        </div>
+        <div class="carousel-nav">
+            <button onclick="prevSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
         </div>
     </div>
-    
-    <div class="contact" id="contato">
-        <p><strong>CONTATOS:</strong></p>
-        <p>
-            Facebook: <a href="https://facebook.com/CreamybyLuzia" target="_blank">CreamybyLuzia</a><br>
-            Instagram: <a href="https://instagram.com/Creamy_by_Luzia" target="_blank">Creamy_by_Luzia</a><br>
-            LinkedIn: <a href="https://linkedin.com/in/LuziadaSilva" target="_blank">LuziadaSilva</a>
-        </p>
-    </div>
+
+    <section class="container">
+        <img src="img/imagemcirculo.webp" alt="Produtos Creamy">
+        <div class="texto">
+            <h2>Por que usar Creamy?</h2>
+            <p>A Creamy Skincare oferece uma variedade de cremes, hidratantes e séruns formulados para deixar sua pele uniforme e sem manchas! 
+            A marca se preocupa tanto com quem tem pele sensível  oferecendo produtos suaves e não agressivos, quanto com aqueles que já possuem uma rotina intensa de skincare 
+            e desejam uma linha completa para transformar sua pele de forma extraordinária. Além disso, a Creamy é uma das marcas mais acessíveis do mercado, sendo Cruelty-Free e utilizando embalagens recicláveis, contribuindo para o meio ambiente. 
+            O atendimento também é um diferencial, com especialistas sempre prontos para ajudar a montar um kit skincare ideal para cada tipo de pele. 
+            Em apenas 5 anos, a Creamy Skincare se tornou uma das marcas mais influentes do setor, graças ao trabalho de cosmetólogos e farmacêuticos que desenvolvem cada produto com dedicação e qualidade.</p>
+        </div>
+    </section>
 </body>
 </html>
-
